@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+.batman {
+    display: block;
+    margin: 0px auto;
+}
+.imagen {
+    background-color: #E6E6E6
+}
+h1{
+    text-align: center;
+    background-color: #C4C4C4;
+    color: #005677;
+}
+h2{
+    background-color: #C4C4C4;
+    color: #005677;
+    padding-left: 10px;
+}
+footer{
+    background-color: #005677;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+footer img {
+    margin-left: 30px;
+}
+h1,h2,h3,li{
+    font-family: 'Times New Roman';
+}
+h3{
+    margin: 8px 0;
+}
+.linea {
+    margin-left: 80px;
+}
