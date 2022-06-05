@@ -1,0 +1,34 @@
+.barra1{
+    background-color: #222222;
+    color: white;
+}
+.barra2{
+    background-color: #F0A83E;
+    color: white;
+}
+.marron{
+    background-color: #3C2313;
+}
+.negro{
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+.movericono{
+    padding-left: 80px;
+}
+.fondo1{
+    background: url("../img/background.png");
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+
+}
+.fondo2{
+    background-color: #F0A83E;
+    max-width: max-content;
+    max-height: max-content;
+}
+h2{
+    text-align: center;
+}
