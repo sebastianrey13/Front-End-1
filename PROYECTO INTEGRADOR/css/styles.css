@@ -28,8 +28,20 @@ body{
 }
 .bloque3_h2{
     background-color: #F3F3F3;
+    /* width: 320px; */
+    text-align: center;
+    /* display: block; */
+    /* position: relative; */
+    /* top: 150px; */
+    position: absolute;
+    top: 320px;
+    left: 700px;
+    font-size: 30px;
+    line-height: 35px;
 }
 .bloque3_p1{
+    /* background-color: transparent; */
+    width: 200px;
 }
 .bloque3_p2{
     background-color: #F0A83E;
