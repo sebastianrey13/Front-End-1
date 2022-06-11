@@ -31,18 +31,20 @@ nav ul li{
     padding: 40px 6.5px 41px 6.5px;    
 }
 .bloque2{
+    background-color: #cacccc;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    height: 750px;
     align-items: center;
-    /* margin: auto; */
 }
 .bloque2__caja1{
     position: relative;
-    top: 20px;
-    left: 20px;
+    background-image: url("../img/delivery.png");
+    height: 350px;
+    width: 490px;
 }
 .bloque2__caja1__text{
     position: absolute;
@@ -53,28 +55,46 @@ b{
     font-size: 24px;
     line-height: 28px;
 }
+.whitetext{
+    color: #ffffff;
+}
+.redtext{
+    color:#ff0000;
+}
 .bloque2__caja2{
     position: relative;
-    top: 20px;
-    right: 20px;
-    background-color: #dfa8a8;
+    background-color: #f3f3f3;
     height: 350px;
     width: 490px;
+    border-radius: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bloque2__caja2__h2{
+    text-align: center;
+    color: #ff0000;
+}
+.bloque2__caja2__p{
+    font-size: 20px;
+    line-height: 23px;
+    padding-left: 69px;
 }
 .bloque2__caja2__div{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
+    justify-content: space-around;
+    padding-bottom: 10px;
 }
-.bloque2__div1__ol{
-    padding-left: 1.5em;
+.ol_item{
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 10px;
 }
-
-
-
+.bloque2_caja2_img{
+    padding-bottom: 50px;
+}
 .bloque3{
     background-color: #000000;
     color: #ffffff;
@@ -82,6 +102,12 @@ b{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+}
+.bloque3__div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 20px;
 }
 .bloque3__img{
     padding: 35px 42px;
