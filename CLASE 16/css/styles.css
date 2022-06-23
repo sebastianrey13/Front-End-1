@@ -4,13 +4,17 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     box-sizing: border-box;
-
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 .barra1{
     /* position: sticky;
     top: 0px; */
-    height: 38px;
-    padding: 10px;
+    height: 23px;
+    padding: 3px 20px;
     background-color: #1CD1B0;
     font-size: 15px;
     line-height: 18px;
@@ -18,31 +22,47 @@
 .barra2{
     /* position: sticky;
     top: 38px; */
-    height: 101px;
-    padding: 28px;
-    padding-bottom: 26px;
+    display: flex;
+    height: 80px;
     background-color: #00669F;
+    color: #F3F3F3;
+    align-items: center;
+    padding-left: 10px;
+}
+.barra2>h1{
+    padding-left: 20px;
+}
+nav ul li{
+    display: inline-block;
+}
+li{
+    padding-right: 20px;
+}
+.navbar{
+    display: flex;
+    background-color: #001D2D;
+    color: #F3F3F3;
+    height: 40px;
+    align-items: center;
+    justify-content: flex-end;
     box-shadow: 0px 10px 15px 0 grey;
-    font-size: 40px;
-    line-height: 47px;
+
 }
 .barra3{
-    padding: 40px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    /* margin: 4% 0; */
 }
 .barra3__bloque1{
+    margin: 20px 0;
     position: relative;
     width: 300px;
     height: 529px;
-    /* top: 293px;
-    left: 32px; */
     background-color: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: 10px;
 }
 .barra3__bloque1--corazon{
     position:absolute;
@@ -89,15 +109,14 @@
     font-size: 15px;
     line-height: 18px;
 }
+
 .barra3__bloque2{
+    margin: 20px 0;
     position: relative;
     width: 300px;
     height: 529px;
-    /* top: 293px;
-    left: 362px; */
     background-color: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: 10px;
 }
 .barra3__bloque2--corazon{
     position:absolute;
@@ -105,7 +124,7 @@
     top: 15.88px;
     z-index: 50;
 }
-.barra3__bloque2--gotica{
+.barra3__bloque2--pink{
     border-radius: 16px 16px 0px 0px;
     position:absolute;
     z-index: 40;
@@ -146,14 +165,12 @@
 }
 
 .barra3__bloque3{
+    margin: 20px 0;
     position: relative;
     width: 300px;
     height: 529px;
-    /* top: 293px;
-    left: 692px; */
     background-color: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: 10px;
 }
 .barra3__bloque3--corazon{
     position:absolute;
@@ -200,84 +217,21 @@
     font-size: 15px;
     line-height: 18px;
 }
-.barra3__bloque4{
-    position: relative;
-    width: 300px;
-    height: 529px;
-    /* top: 293px;
-    left: 462px; */
-    background-color: #F3F3F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: 10px;
-}
-.barra3__bloque4--corazon{
-    position:absolute;
-    left: 11px;
-    top: 15.88px;
-    z-index: 50;
-}
-.barra3__bloque4--gotica{
-    border-radius: 16px 16px 0px 0px;
-    position:absolute;
-    z-index: 40;
-}
-.barra3__bloque4--harley{
-    position:absolute;
-    left: 90px;
-    top: 128px;
-    border-radius: 50%;
-    z-index: 45;
-}
-.barra3__bloque4_h2{
-    position:absolute;
-    left: 65px;
-    top: 266px;
-    font-size: 30px;
-    line-height: 35px;
-}
-.barra3__bloque4_p1{
-    width: 267px;
-    height: 113px;
-    position:absolute;
-    left: 16px;
-    top: 312px;
-    /* text-align: justify; */
-    font-size: 16px;
-    line-height: 19px;    
-}
-.barra3__bloque4_p2{
-    position:absolute;
-    left: 85px;
-    top: 462px;
-    color: #F3F3F3;
-    background-color: #00669F;
-    padding: 15px 35.78px 15.52px 37px;
-    font-size: 15px;
-    line-height: 18px;
+.barra3__button{
+    margin;
 }
 
 footer{
+    height: 51px;
+    text-align: center;
     background-color: #00669F;
     color: #ffffff;
     font-size: 16px;
     line-height: 19px;
     padding: 16px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 }
-/* .imgfooter{
-    justify-self: flex-end;
-} */
-.pfooter{
-    /* padding-left: 200px; */
-}
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+flex-flow: row wrap;
 
-
-
-1980
-@media (max-width:400px){
-    
-}
